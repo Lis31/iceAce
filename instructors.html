@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@
 				</ul>
 			</nav>
 
-			<div class="contacts--clearfix">
+			<div class="contacts">
 				<a href="#" class="contacts__phone">8(800) 800-80-80</a>
 				<a href="#" class="btn btn--right">записаться</a>
 			</div>
@@ -45,23 +45,50 @@
 			<h1 class="instructors__title">Инструкторы школы</h1>
 
 			<form class="instructors__search" action="http://iceace.com" method="get">
-				<input id="search" type="search" class="instructors__search-input" placeholder="Начните вводить имя"><label for="search"><img src="" alt="лупа" class="instructors__search-img"></label>
+				<input id="search" type="text" class="instructors__search-input" placeholder="Начните вводить имя"><label for="search"><img src="" alt="лупа" class="instructors__search-img"></label>
 			</form>
 
 			<div class="instructors__gallery">
 				<div class="row">
 					
 					<ul class="instructors__thumb-list">
-						<li class="instructors__thumb-item"><a href=""><img src="" alt="фото инструктора" class="instructors__thumb-img"></a><span class="instructors__thumb-name">Арсений <br> Петров</span></li>
-						<li class="instructors__thumb-item"><a href=""><img src="" alt="фото инструктора" class="instructors__thumb-img"></a></li>
-						<li class="instructors__thumb-item"><a href=""><img src="" alt="фото инструктора" class="instructors__thumb-img"></a><span class="instructors__thumb-name">Степан <br> Александров</span></li>
-						<li class="instructors__thumb-item instructors__thumb-item--active"><a href=""><img src="" alt="фото инструктора" class="instructors__thumb-img"></a></li>
-						<li class="instructors__thumb-item"><a href=""><img src="" alt="фото инструктора" class="instructors__thumb-img"></a><span class="instructors__thumb-name">Виталий <br> Сергеев</span></li>
+
+						<li class="instructors__thumb-item">
+							<a href="">
+								<img src="" alt="фото инструктора" class="instructors__thumb-img">
+							</a>
+							<span class="instructors__thumb-name">Арсений <br> Петров</span></li>
+
+						<li class="instructors__thumb-item">
+							<a href="">
+								<img src="" alt="фото инструктора" class="instructors__thumb-img">
+							</a>
+						</li>
+
+						<li class="instructors__thumb-item">
+							<a href="">
+								<img src="" alt="фото инструктора" class="instructors__thumb-img">
+							</a>
+							<span class="instructors__thumb-name">Степан <br> Александров</span>
+						</li>
+
+						<li class="instructors__thumb-item instructors__thumb-item--active">
+							<a href="">
+								<img src="" alt="фото инструктора" class="instructors__thumb-img">
+							</a>
+						</li>
+
+						<li class="instructors__thumb-item">
+							<a href="">
+								<img src="" alt="фото инструктора" class="instructors__thumb-img">
+							</a><span class="instructors__thumb-name">Виталий <br> Сергеев</span>
+						</li>
+
 					</ul>
 
 				</div>
 
-				<div class="profile">
+				<article class="profile">
 					<div class="row">
 						
 						<div class="profile-avatar">
@@ -82,23 +109,26 @@
 							</div>
 
 							<h3 class="profile-info__subtitle">Стиль</h3>
+
 							<div class="profile-info__content">
-								<a href="#">#allround <br> #freeride <br> #skiicross</a>
+								<a href="#">#allround</a><br>
+								<a href="#">##freeride</a> <br>
+								<a href="#">#skiicross</a> 
 							</div>
 						</div>
 
 						<div class="profile__btn-block">
 							<a href="#" class="btn btn--right">записаться</a>
-							<div class="rate-badge">
+							<button type="button" class="rate-badge">
 								<p class="rate-badge__number">5</p>
-							</div>
+							</button>
 							<p class="profile__text">Спасибо!</p>
 						</div>
 
 					</div>
 
 					<div class="row">
-						<div class="profile-descr">
+						<article class="profile-descr">
 							<h3 class="profile-descr__title">Образование</h3>
 							<p class="profile-descr__text">Национальная лига инструкторов, сертификат инструктора 
 							по горным лыжам, г. Санкт-Петербург (2014 год). </p>
@@ -107,7 +137,7 @@
 							Опыт тренерской работы с 2012 года.</p>
 							<p class="profile-descr__text">3 место на чемпионате Ленинградской области по горным лыжам. 
 							1 место на чемпионате Карелии по горным лыжам.</p>
-						</div>
+						</article>
 
 						<div class="profile-video">
 							<video src=""></video>
@@ -138,7 +168,7 @@
 						</ul>
 					</div>
 
-				</div>
+				</article>
 
 			</div>
 		</div>
@@ -157,7 +187,7 @@
       		<div class="social__item"></div>
       	</div>
 
-      		<div class="contacts--clearfix">
+      		<div class="contacts">
 						<a href="#" class="contacts__phone">8(800) 800-80-80</a> <br>
 						<a href="mailto:hello@iceace.com">hello@iceace.com</a>
 					</div>

@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Today-100 {
+    width: 58px;
+    height: 61px;
+    background-position: -5px -5px;
+}
+
+.sprite-bus {
+    width: 80px;
+    height: 55px;
+    background-position: -73px -5px;
+}
+
+.sprite-certificate {
+    width: 53px;
+    height: 61px;
+    background-position: -163px -5px;
+}
+
+.sprite-like {
+    width: 60px;
+    height: 61px;
+    background-position: -226px -5px;
+}
+
+.sprite-ski {
+    width: 61px;
+    height: 75px;
+    background-position: -296px -5px;
+}
+
+.sprite-snowboard-helmet {
+    width: 58px;
+    height: 71px;
+    background-position: -367px -5px;
+}

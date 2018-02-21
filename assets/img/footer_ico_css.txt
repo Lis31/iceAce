@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-logo {
+    width: 18px;
+    height: 33px;
+    background-position: -5px -5px;
+}
+
+.sprite-instagram-logo {
+    width: 32px;
+    height: 32px;
+    background-position: -33px -5px;
+}
+
+.sprite-vk {
+    width: 40px;
+    height: 24px;
+    background-position: -75px -5px;
+}
+
+.sprite-youtube-logo {
+    width: 32px;
+    height: 32px;
+    background-position: -125px -5px;
+}

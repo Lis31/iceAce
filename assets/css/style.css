@@ -1,0 +1,411 @@
+/*----------------------------
+-----------ШРИФТЫ---------
+-----------------------------*/
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FUTURAPTBOLD.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FUTURAPTBOLDOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "FuturaPTbook";
+	src: url("../fonts/FUTURAPTBOOK.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTbook";
+	src: url("../fonts/FUTURAPTBOOKOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDBOLD.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDBOLDOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "FuturaPTcondBook";
+	src: url("../fonts/FUTURAPTCONDBOOK.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTcondBook";
+	src: url("../fonts/FUTURAPTCONDBOOKOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDEXTRABOLD.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDEXTRABOLDOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDMEDIUM.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTcond";
+	src: url("../fonts/FUTURAPTCONDMEDIUMOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTdemi";
+	src: url("../fonts/FUTURAPTDEMI.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTdemi";
+	src: url("../fonts/FUTURAPTDEMIOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FUTURAPTEXTRABOLD.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FUTURAPTEXTRABOLDOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "FuturaPTheavy";
+	src: url("../fonts/FUTURAPTHEAVY.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTheavy";
+	src: url("../fonts/FUTURAPTHEAVYOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTlight";
+	src: url("../fonts/FUTURAPTLIGHT.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTlight";
+	src: url("../fonts/FUTURAPTLIGHTOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTmedium";
+	src: url("../fonts/FUTURAPTMEDIUM.OTF") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaPTmedium";
+	src: url("../fonts/FUTURAPTMEDIUMOBLIQUE.OTF") format("opentype");
+	font-style: oblique;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "FuturaRegular";
+	src: url("../fonts/FUTURAREGULAR.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0140M";
+	src: url("../fonts/TT0140M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0141M";
+	src: url("../fonts/TT0141M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0142M";
+	src: url("../fonts/TT0142M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0143M";
+	src: url("../fonts/TT0143M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0144M";
+	src: url("../fonts/TT0144M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "TT0145M";
+	src: url("../fonts/TT0145M.TTF") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+}
+.container {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+
+/*----------------------------
+-----------PROMOBLOCK---------
+-----------------------------*/
+
+.promo-block__container {
+	display: flex;
+	flex-direction: column;
+	padding: 14px;
+	box-sizing: border-box;
+}
+
+.promo-block {
+	background-color: black;
+	background: url('../img/promo_bg_xs.jpg') 
+	no-repeat;
+	padding-top: 132px;
+	width: 100%;
+	height: 480px;
+	box-sizing: border-box;
+}
+
+.promo-block__title {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "FuturaPT", arial, sans-serif;
+	color: #fff;
+	line-height: 24px;
+}
+
+.promo-block__subtitle {
+	font-size: 18px;
+	font-family: "FuturaPTdemi";
+	color: #fff;
+	margin-top: 5px;
+}
+
+.nav__list {
+	display: none;
+}
+/*----------------------------
+-----------HEADER---------
+-----------------------------*/
+.header {
+	flex-basis: 100%;
+	position: absolute;
+	top: 14px;
+	left: 0;
+	text-align: center;
+}
+
+.logo {
+	margin-left: 14px;
+}
+
+.logo__img {
+	width: 65px;
+	height: 22px;
+}
+
+.logo__img--active, .contacts {
+	display: none;
+}
+.burger {
+	margin-left: 170%; 
+}
+
+.contacts {
+	display: flex;
+	position: absolute;
+	margin-top: 353px;
+	margin-left: 85%;
+
+}
+.contacts__phone {
+	display: none;
+}
+
+.btn {
+	box-sizing: border-box;
+	width: 136px;
+	height: 47px;
+	margin: auto;
+	vertical-align: middle;
+	display: flex;
+	padding-top: 12px;
+	justify-content: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	font-family: "FuturaPTheavy";
+	text-decoration: none;
+	border: 2px solid #74E196;
+}
+
+/*----------------------------
+-----------SERVICES-----------
+-----------------------------*/
+.services {
+	height: 240px;
+}
+.services__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: top;
+	text-align: center;
+}
+
+.services__title {
+	font-size: 24px;
+	font-family: "FuturaPTdemi";
+	font-weight: 700;
+}
+
+.services__subtitle {
+	font-size: 10px;
+	font-family: "FuturaPTmedium";
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.services-item__descr, .services-item__lessons {
+	display: none;
+}
+
+.services-item {
+	width: 152px;
+	height: 82px;
+}
+
+.services-item:nth-of-type(5) {
+	align-self: flex-start;
+}
+
+.services-item:nth-of-type(3) {
+	display: none;
+}
+
+.services-item:nth-of-type(4) {
+	display: none;
+}
+
+.services-item:nth-of-type(6) {
+	display: none;
+}
+
+.services-item:first-child {
+	width: 164px;
+	height: 164px;
+
+}
+
+.services__img {
+	display: none;
+}
+
+
+/*----------------------------
+-----------DISCOUNTS-----------
+-----------------------------*/
+
+.discounts {
+	background-color: grey;
+	background: url('../img/discounts_bg.jpg') 
+	center center no-repeat;  
+}
+
+/*----------------------------
+-------------TEAM-------------
+-----------------------------*/
+
+.team {
+	background: url('../img/team_bg.png') 
+	center center no-repeat;
+}
